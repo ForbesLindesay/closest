@@ -1,6 +1,6 @@
 # Closest
 
-Similar to jQuery's `$.fn.closest` and `$.fn.parent`.
+Similar to jQuery's `$.fn.closest` and `$.fn.parents`.
 Finds the closest parent that matches a selector.
 
 ## API
@@ -10,7 +10,7 @@ Finds the closest parent that matches a selector.
 * element - will check this elements parents
 * selector - CSS selector to match parents
 * checkSelf - check `element`.
-  If falsey, will begin with `element.parentNode` and is synonymous to `$.fn.parent`.
+  If falsey, will begin with `element.parentNode` and is synonymous to `$.fn.parents`.
   Otherwise, it's `$.fn.closest`.
 
 Example:
