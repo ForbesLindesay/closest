@@ -20,7 +20,7 @@ Finds the closest parent that matches a selector.
 Example:
 
 ```javascript
-var closest = require('cosest');
+var closest = require('closest');
 
 closest(document.body, 'html') === document.documentElement
 closest(document.body, 'body', true) === document.body
