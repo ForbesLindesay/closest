@@ -1,6 +1,6 @@
 {
   "name": "closest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Find the closest parent that matches a selector.",
   "keywords": [
     "browserify",
@@ -11,7 +11,7 @@
     "jquery"
   ],
   "dependencies": {
-    "matches-selector": "0.0.1"
+    "matches-selector": "1.0.0"
   },
   "repository": {
     "type": "git",
