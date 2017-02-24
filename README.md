@@ -1,5 +1,7 @@
 # Closest
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/closest.svg)](https://greenkeeper.io/)
+
 Similar to jQuery's `$.fn.closest` and `$.fn.parents`.
 Finds the closest parent that matches a selector.
 
