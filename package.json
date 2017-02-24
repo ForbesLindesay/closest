@@ -11,7 +11,7 @@
     "jquery"
   ],
   "dependencies": {
-    "matches-selector": "0.0.1"
+    "matches-selector": "1.0.0"
   },
   "repository": {
     "type": "git",
