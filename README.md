@@ -1,7 +1,7 @@
 # Closest
 
-Similar to jQuery's `$.fn.closest` and `$.fn.parents`.
-Finds the closest parent that matches a selector.
+Finds the closest parent that matches a selector. Like `jQuery.fn.closest`
+
 
 ## Installation
 
@@ -11,11 +11,11 @@ Finds the closest parent that matches a selector.
 
 ### `closest(element, selector, checkSelf)`
 
-* element - will check this elements parents
-* selector - CSS selector to match parents
-* checkSelf - check `element`.
-  If falsey, will begin with `element.parentNode` and is synonymous to `$.fn.parents`.
-  Otherwise, it's `$.fn.closest`.
+* `element` - element to search from
+* `selector` - CSS selector to match parents
+* `checkSelf`
+  * If falsey (default) it starts with the parent like `$(element).closest(selector)`
+  * If truthy it starts with itself so would return `element` if it matches `selector`
 
 Example:
 
